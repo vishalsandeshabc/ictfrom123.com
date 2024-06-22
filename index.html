@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('file:///C:/Users/PWIT/Downloads/360_F_345295622_gUzV6dU09syTrk49uSabBvhaEDBlJeFp.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black; /* Set default text color to black */
+            display: flex;
+            justify-content: flex-end; /* Align items to the end (right) */
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Light background with some transparency */
+            padding: 30px 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.3);
+            text-align: center;
+            width: 350px;
+            height: 100vh; /* Full height */
+            box-sizing: border-box; /* Include padding in height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .login-container h1 {
+            color: #f00;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: black; /* Set the text color of h2 to black */
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+            font-size: 18px;
+            color: black; /* Set the text color of inputs to black */
+        }
+        .login-container button {
+            background-color: red;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 5px #900;
+            transition: all 0.3s ease;
+        }
+        .login-container button:hover {
+            background-color: darkred;
+            box-shadow: 0 7px #700;
+        }
+        .login-container button:active {
+            box-shadow: 0 2px #900;
+            transform: translateY(3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>ictfrom123</h1>
+        <h2>Vishal Kumarasinghe</h2>
+        <form action="file:///C:/Users/PWIT/Downloads/ictfrom123/Dashboard.html" method="get">
+
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
